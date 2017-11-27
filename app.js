@@ -11,8 +11,9 @@ var index = require('./routes/index');
 
 
 var app = express();
-
-app.set('port', process.env.PORT || 3009);
+var port = process.env.PORT || 8080;
+//app.set('port', process.env.PORT || 3009);
+app.set('port', port);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

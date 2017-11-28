@@ -92,15 +92,18 @@ padding:1rem;
 .questionContainer{
 	margin-top:50px;
 	border:1px solid #FFFFFF;
+	background-color: white;
 }
 
 
 .questionContainer .title{
 	
 	border-bottom:1px solid #FFFFFF;
+	background-color: white;
 }
 .questionContainer .content{
 	padding-bottom: 20px;
+	background-color: white;
 	border-bottom:1px solid #FFFFFF;
 }
 
